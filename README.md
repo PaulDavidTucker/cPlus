@@ -49,3 +49,13 @@ We can declare pointers to items - the * prefix operating means the "contents of
 Copied and pasted a fibonacci sequence solution using the CMG package for large stored numbers. Also fiddled around with using chrono, a library for timing the execution of functions. I thought it was pretty cool. 
 
 Began watching through Dave Churchills Intro to c++ as it looks at all sorts of useful c++ features, not just some syntax three hour slop.
+
+## Day 2 
+
+- Began the day watching some primeaegen for obvious inspo, read an article as to why c++ is a cool and fun language. Looking to complete the C++ yt vid, then read through physical copy of book. Discovered that the GNU compiler I was using simply has the ability to compile to various versions of C++. I thought I'd need a whole new toolchain, compiler and utils/libs etc! Very cool. 
+
+Ended up learning lots of syntax from the first part of the lecture I watched, biggest takeaway was better ways to create constructors for classes where we eliminate the need to assign a default value (saves assignment cycles!) and just assign the passed value. 
+
+The second part I learnt was the proper use of passing values by reference to functions, rather than needing to pass in whole values that may be massive (like vectors or strings!!), we can just pass a reference to them. We also use const to prevent functions from modifying return types, passed args or modifying data within the method body itself. 
+
+Didn't write a whole lot of code today, did mainly handwritten notes in the end. Eager to continue watching and reading more as I have the physcial book in my hands now. 
