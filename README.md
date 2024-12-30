@@ -46,4 +46,6 @@ An array of elemetns of type char can be defined with the size of the array, and
 
 We can declare pointers to items - the * prefix operating means the "contents of" and the & prefix means the address of. A suffix & means "reference to". A reference acts similarly to a pointer, except that we don't need to use a prefix * to access the value referred to by the reference. This reference cannot be made to refer to a different object after it's initialization. (These are all called dlclarator operators)
 
+Copied and pasted a fibonacci sequence solution using the CMG package for large stored numbers. Also fiddled around with using chrono, a library for timing the execution of functions. I thought it was pretty cool. 
 
+Began watching through Dave Churchills Intro to c++ as it looks at all sorts of useful c++ features, not just some syntax three hour slop.
